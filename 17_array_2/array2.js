@@ -1,3 +1,5 @@
+console.clear()
+
 var mFriends = ['Shaw', 'Clara', 'Vab', 'Kun', 'Jacob', 'Dina']
 mFriends.splice(3, 0, 'Donna', 'Rachel')
 
