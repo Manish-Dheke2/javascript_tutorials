@@ -2,7 +2,7 @@ console.clear()
 
 var num1 = 10 // global variable
 
-console.log(num2)
+// console.log(num2) // here num2 is local variable
 
 function sum(num2) {
     console.log(num1)
