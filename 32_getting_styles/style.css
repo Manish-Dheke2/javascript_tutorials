@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Top navigation bar */
+header {
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+}
+
+/* Buttons in same line */
+button {
+    padding: 8px 10px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 24px;
+    margin-left: 20px;
+}
+
+
+/* Center heading */
+#main-heading {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
