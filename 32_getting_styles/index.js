@@ -4,7 +4,7 @@ var btnIncreaseFont = document.getElementById('btn-increase')
 
 
 var initialFontSize = window.getComputedStyle(mainHeading).fontSize
-initialFontSize = initialFontSize.substr(0, (initialFontSize.length - 2))
+initialFontSize = parseInt(initialFontSize.substr(0, (initialFontSize.length - 2)))
 
 btnIncreaseFont.onclick = function() {
     initialFontSize += 10
